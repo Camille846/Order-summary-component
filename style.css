@@ -222,7 +222,8 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -714px;
+        background-position-y: -516px;
+        background-position-x: 45%;
     }
 }
 
@@ -231,7 +232,8 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -714px;
+        background-position-y: -516px;
+        background-position-x: 45%;
     }
 }
 
@@ -240,8 +242,8 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -714px;
-        background-position-x: 28%;
+        background-position-y: -516px;
+        background-position-x: 45%;
     }
 }
 
@@ -250,8 +252,8 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -716px;
-        background-position-x: 17%;
+        background-position-y: -516px;
+        background-position-x: 45%;
     }
 }
 
@@ -260,7 +262,7 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -716px;
-        background-position-x: 17%;
+        background-position-y: -516px;
+        background-position-x: 45%;
     }
 }
