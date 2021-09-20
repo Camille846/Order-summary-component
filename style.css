@@ -206,7 +206,8 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y:-740px;
+        background-position-y: -388px;
+        background-position-x: 61%;
     }
     .card{
         width: 250px;
@@ -222,8 +223,8 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -516px;
-        background-position-x: 45%;
+        background-position-y: -373px;
+        background-position-x: 61%;
     }
 }
 
@@ -232,8 +233,8 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -516px;
-        background-position-x: 45%;
+        background-position-y: -373px;
+        background-position-x: 61%;
     }
 }
 
@@ -242,8 +243,8 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -516px;
-        background-position-x: 45%;
+        background-position-y: -373px;
+        background-position-x: 61%;
     }
 }
 
@@ -252,8 +253,8 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -516px;
-        background-position-x: 45%;
+        background-position-y: -373px;
+        background-position-x: 61%;
     }
 }
 
@@ -262,7 +263,7 @@ button{
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -516px;
-        background-position-x: 45%;
+        background-position-y: -373px;
+        background-position-x: 61%;
     }
 }
