@@ -3,10 +3,13 @@
     /* Colors */
     --Pale-blue: hsl(225, 100%, 94%);
     --Bright-blue: hsl(245, 75%, 52%);
+    --a-color:hsl(245, 86%, 61%);
+    --hover-color:hsl(245, 83%, 68%);
     --Very-pale-blue: hsl(225, 100%, 98%);
     --Desaturated-blue: hsl(224, 23%, 55%);
     --grey: #e3e8fa;
     --Dark-blue: hsl(223, 47%, 23%);
+    --attribution-color:hsl(228, 45%, 44%);
 
     /* Font-size */
     --smaller-size:12px;
@@ -137,9 +140,18 @@ button{
 }
 
 .card-info .card-info__content .card-info__link{
+    margin: 0 0 0 30px;
+}
+
+.card-info .card-info__content .card-info__link a{
     font-weight: 900;
     font-size: var(--smaller-size);
-    margin: 0 0 0 30px;
+    color:var(--a-color);
+    
+}
+
+.card-info .card-info__content .card-info__link a:hover{
+    color: var(--hover-color);
 }
 
 .buttons{
@@ -159,6 +171,10 @@ button{
     box-shadow: 1px 2px 5px 1px hsla(245, 75%, 52%, .7);
 }
 
+.btn-proceed:hover{
+    background-color: var(--hover-color);
+}
+
 .btn-cancel{
     color: var(--Desaturated-blue);
     font-weight: 900;
@@ -167,6 +183,9 @@ button{
     padding: 0 15px 15px 15px;
 }
 
+.btn-cancel:hover{
+    color:var(--Dark-blue);
+}
 .attribution { 
     padding: 20px;
     font-size: 11px; 
@@ -174,5 +193,5 @@ button{
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--attribution-color); 
 }
