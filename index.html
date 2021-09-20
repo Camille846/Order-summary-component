@@ -5,33 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0a2a0a8b86.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main class="card">
+    <header class="hero">
+      <img src="images/illustration-hero.svg" alt="">
+    </header>
+    <section class="container">
+      <h1 class="title">Order Summary</h1>
+      <p class="header__text">
+         You can now listen to millions of songs, audiobooks and podcasts on any device anywhere you like!
+      </p>
+    <div class="card-info">
+      <div class="card-info__content">
+        <div class="icon">
+          <i class="fas fa-music"></i>
+        </div>
+        <div class="card-info__text">
+          <h2>Annual Plan</h2>
+          <p>$59.99/year</p>
+        </div>
+        <div class="card-info__link">
+          <a href="#">Change</a>
+        </div>
+      </div>
+    </div>
+    </section>
+    <div class="buttons">
+      <button class="btn-proceed">Proceed to Payment</button>
+      <button class="btn-cancel">Cancel Order</button>
+    </div>
 
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+</main>
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Camille</a>.
+  
 </body>
 </html>
