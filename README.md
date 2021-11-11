@@ -40,6 +40,7 @@ It consists in creating a simple responsive card design where users should be ab
 
 ## Access Project
 
+- Solution URL: [Order summary card at Frontend](https://www.frontendmentor.io/solutions/order-summary-card-Imlkcw4fX)
 - Access project: [Order Summary Component](https://camille846.github.io/Order-summary-component/)
 
 ## Author
